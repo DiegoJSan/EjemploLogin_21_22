@@ -30,6 +30,8 @@ export class HomePage {
         this.userEmail = user.email;
         this.userUID = user.uid;
         this.isLogged = true;
+      } else {
+        //Redirigir al login
       }
     })
   }
